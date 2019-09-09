@@ -9,6 +9,7 @@ from util import tap_screen, tap_cords, swipe, swipe_cords, tap_only_cords, chec
 action_caches = {}
 
 
+
 class Action(ABC):
     def __init__(self, name, cord):
         self.name = name
